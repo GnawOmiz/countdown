@@ -27,7 +27,6 @@ const countdownInterval = setInterval(() => {
     const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
 
     // Update the DOM with the new values
-    document.getElementById('days').textContent = totalDays;
     document.getElementById('hours').textContent = hours;
     document.getElementById('minutes').textContent = minutes;
     document.getElementById('seconds').textContent = seconds;
