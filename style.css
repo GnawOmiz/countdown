@@ -65,3 +65,7 @@ body {
     from { transform: translateY(100vh) rotate(-12.5deg); }
     to { transform: translateY(-10vh) rotate(-12.5deg); }
 }
+
+.days {
+    display: none;
+}
